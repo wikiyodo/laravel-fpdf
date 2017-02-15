@@ -4,10 +4,13 @@
 *                                                                              *
 * Version: 1.81                                                                *
 * Date:    2015-12-20                                                          *
-* Author:  Olivier PLATHEY                                                     *
+* Author:  Olivier PLATHEY
+*Edited by : Wikiyodo
+*
 *******************************************************************************/
 
 define('FPDF_VERSION','1.81');
+
 
 class FPDF
 {
@@ -91,7 +94,7 @@ function __construct($orientation='P', $unit='mm', $size='A4')
 	$this->InHeader = false;
 	$this->InFooter = false;
 	$this->lasth = 0;
-	$this->FontFamily = '';
+	$this->FontFamily = 'Arial';
 	$this->FontStyle = '';
 	$this->FontSizePt = 12;
 	$this->underline = false;
@@ -268,7 +271,7 @@ function AliasNbPages($alias='{nb}')
 function Error($msg)
 {
 	// Fatal error
-	throw new Exception('FPDF error: '.$msg);
+	throw new \Exception('FPDF error: '.$msg);
 }
 
 function Close()
