@@ -1,5 +1,5 @@
 {
-  "name": "codedge/laravel-fpdf",
+  "name": "wikiyodo/laravel-fpdf",
   "description" : "Laravel 5 package for use with Fpdf. It ships with Fpdf 1.81.",
   "license": "MIT",
   "keywords": [
@@ -8,13 +8,13 @@
     "pdf"
   ],
   "support": {
-    "issues": "https://github.com/codedge/laravel-fpdf/issues",
-    "source": "https://github.com/codedge/laravel-fpdf"
+    "issues": "https://github.com/wikiyodo/laravel-fpdf/issues",
+    "source": "https://github.com/wikiyodo/laravel-fpdf"
   },
   "authors": [
     {
-      "name": "Holger Lösken",
-      "email": "holger.loesken@codedge.de"
+      "name": "Holger Lösken, Wikiyodo",
+      "email": "holger.loesken@codedge.de, wikiyodo@yahoo.com"
     }
   ],
   "require": {
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Codedge\\Fpdf\\": "src/"
+      "wikiyodo\\Fpdf\\": "src/"
     }
   }
 }
